@@ -42,6 +42,7 @@ public class Player_move : MonoBehaviour
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
         MyInput();
+        SpeedControl();
 
         if (grounded)
         rb.drag = groundDrag;
@@ -83,14 +84,43 @@ public class Player_move : MonoBehaviour
 
     }
 
+    private void SpeedControl()
+    {
+        Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+       
+       if(flatVel.magnitude > moveSpeed)
+       {
+        Vector3 limitedVel = flatVel.normalized * moveSpeed;
+        rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+       }
+    }
+
     private void Jump()
     {
+
+        rb.velocity = new Vector3(0f, 0f, 0f);
+        rb.velocity = Vector3.up * jumpForce;
+
+        /*
+
+
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+
+        
+
+        */
+
+
     }
     private void ResetJump()
     {
         readyToJump = true;
+    }
+
+    public void Die()
+    {
+        gameObject.SetActive(false);
     }
 }
