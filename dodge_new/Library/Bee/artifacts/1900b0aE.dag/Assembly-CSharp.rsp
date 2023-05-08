@@ -327,6 +327,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/AimingRig.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MK.MeshUtility.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MK.MKTextureChannelPacker.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MK.RampCreator.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MK.Toon.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MK.Toon.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -385,6 +390,11 @@
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/SpawnInCircle.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs"
 "Assets/ThirdPersonCam.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_DissolveOverTime.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_ExampleReview.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_MouseRotation.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_SnowOverTime.cs"
+"Assets/Ultimate 10 Plus Shaders/Shaders/Plexus/Plexus.cs"
 -langversion:9.0
 
 /deterministic
