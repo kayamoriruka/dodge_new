@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
+                Time.timeScale = 1f;
                 SceneManager.LoadScene("SampleScene");
             }
 
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
         }
 
         recordText.text = "Best Time - " + (int)bestTime;
-
+        Time.timeScale = 0f;
 
     }
 }

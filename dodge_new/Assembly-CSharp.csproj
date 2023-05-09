@@ -60,9 +60,6 @@
     <Compile Include="Assets\ThirdPersonCam.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
-    <Compile Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.cs" />
-    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_DissolveOverTime.cs" />
-    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_ExampleReview.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\SimpleElevator.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\CinemachineFadeOutNearbyObjects.cs" />
     <Compile Include="Assets\BulletSpawner.cs" />
@@ -72,7 +69,6 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
-    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\BossCamera\CustomLockCameraY.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Bullet.cs" />
@@ -85,7 +81,6 @@
     <Compile Include="Assets\Player_move.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
-    <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
@@ -98,22 +93,8 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Edge Detection.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Grass Sway.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Blur.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.compute" />
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Depth Mask Edge Detection.shader" />
     <None Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Ocean.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Dissolve.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plasma.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Outline.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus Line.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Snow.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Lava3D.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Force Field.shader" />
-    <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Simple Sine Wave.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -758,6 +739,12 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -788,6 +775,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -806,6 +796,9 @@
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -820,26 +813,6 @@
     <ProjectReference Include="AimingRig.csproj">
       <Project>{ACF81E17-EEC6-CBFE-EB23-745C85C6FD00}</Project>
       <Name>AimingRig</Name>
-    </ProjectReference>
-    <ProjectReference Include="MK.MeshUtility.csproj">
-      <Project>{1B2D056A-CC0E-1D28-97DE-B200AF0BA852}</Project>
-      <Name>MK.MeshUtility</Name>
-    </ProjectReference>
-    <ProjectReference Include="MK.MKTextureChannelPacker.csproj">
-      <Project>{393995C1-1E1C-0B58-F44C-10D2599F9C66}</Project>
-      <Name>MK.MKTextureChannelPacker</Name>
-    </ProjectReference>
-    <ProjectReference Include="MK.Toon.Editor.csproj">
-      <Project>{080D8D49-DEB3-53E9-C7AE-2E839C8658E0}</Project>
-      <Name>MK.Toon.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MK.RampCreator.csproj">
-      <Project>{D65A8593-C28D-20DF-47CA-602750FAB6BA}</Project>
-      <Name>MK.RampCreator</Name>
-    </ProjectReference>
-    <ProjectReference Include="MK.Toon.csproj">
-      <Project>{802BE624-4BE5-26B3-C25E-5A5E2E026093}</Project>
-      <Name>MK.Toon</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

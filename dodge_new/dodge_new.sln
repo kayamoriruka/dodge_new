@@ -1,19 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MK.Toon", "MK.Toon.csproj", "{802BE624-4BE5-26B3-C25E-5A5E2E026093}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E76269CA-0427-BC7B-C074-E2B3CDDA1224}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AimingRig", "AimingRig.csproj", "{ACF81E17-EEC6-CBFE-EB23-745C85C6FD00}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MK.Toon.Editor", "MK.Toon.Editor.csproj", "{080D8D49-DEB3-53E9-C7AE-2E839C8658E0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MK.RampCreator", "MK.RampCreator.csproj", "{D65A8593-C28D-20DF-47CA-602750FAB6BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MK.MKTextureChannelPacker", "MK.MKTextureChannelPacker.csproj", "{393995C1-1E1C-0B58-F44C-10D2599F9C66}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MK.MeshUtility", "MK.MeshUtility.csproj", "{1B2D056A-CC0E-1D28-97DE-B200AF0BA852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{802BE624-4BE5-26B3-C25E-5A5E2E026093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{802BE624-4BE5-26B3-C25E-5A5E2E026093}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{802BE624-4BE5-26B3-C25E-5A5E2E026093}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{802BE624-4BE5-26B3-C25E-5A5E2E026093}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E76269CA-0427-BC7B-C074-E2B3CDDA1224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E76269CA-0427-BC7B-C074-E2B3CDDA1224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E76269CA-0427-BC7B-C074-E2B3CDDA1224}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,22 +19,6 @@ Global
 		{ACF81E17-EEC6-CBFE-EB23-745C85C6FD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF81E17-EEC6-CBFE-EB23-745C85C6FD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF81E17-EEC6-CBFE-EB23-745C85C6FD00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{080D8D49-DEB3-53E9-C7AE-2E839C8658E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{080D8D49-DEB3-53E9-C7AE-2E839C8658E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{080D8D49-DEB3-53E9-C7AE-2E839C8658E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{080D8D49-DEB3-53E9-C7AE-2E839C8658E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D65A8593-C28D-20DF-47CA-602750FAB6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D65A8593-C28D-20DF-47CA-602750FAB6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D65A8593-C28D-20DF-47CA-602750FAB6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D65A8593-C28D-20DF-47CA-602750FAB6BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{393995C1-1E1C-0B58-F44C-10D2599F9C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{393995C1-1E1C-0B58-F44C-10D2599F9C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{393995C1-1E1C-0B58-F44C-10D2599F9C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{393995C1-1E1C-0B58-F44C-10D2599F9C66}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B2D056A-CC0E-1D28-97DE-B200AF0BA852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B2D056A-CC0E-1D28-97DE-B200AF0BA852}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B2D056A-CC0E-1D28-97DE-B200AF0BA852}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B2D056A-CC0E-1D28-97DE-B200AF0BA852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
